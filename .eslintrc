@@ -1,0 +1,29 @@
+{
+  "plugins": ["react-hooks", "prettier"],
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "rules": {
+    "no-console": "error",
+    "no-shadow": "off",
+    "no-underscore-dangle": "off",
+    "react/jsx-filename-extension": ["error", { "extensions": [".js"] }],
+    "react/prop-types": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "quotes": ["error", "backtick"],
+    "import/no-unresolved": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "no-confusing-arrow": "off",
+    "prettier/prettier": ["error"],
+    "react/jsx-wrap-multilines": "off",
+    "react/jsx-indent": "off",
+    "import/prefer-default-export": "off",
+    "react/jsx-curly-newline": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/static-property-placement": ["error", "static public field"],
+    "react/state-in-constructor": ["error", "never"]
+  },
+  "parser": "@typescript-eslint/parser",
+  "extends": ["eslint-config-airbnb", "airbnb-typescript", "prettier", "prettier/@typescript-eslint"]
+}
