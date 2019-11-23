@@ -8,5 +8,5 @@
   "rules": {
     "prettier/prettier": true
   },
-  "ignoreFiles": ["**/*.svg"]
+  "ignoreFiles": ["**/*.!(css)"]
 }
